@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% , -20%);
+    background-color: #F1EBE7;
+    width: 340px;
+    border-radius: 20px;
+    height: 76px;
+      .list-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        li {
+            list-style: none;
+            .contact {
+                background-color: red;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        }
+    }
+    span {
+        display: none;
+    }
+}
+

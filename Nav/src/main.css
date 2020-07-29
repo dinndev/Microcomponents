@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -20%);
+          transform: translate(-50%, -20%);
+  background-color: #F1EBE7;
+  width: 340px;
+  border-radius: 20px;
+  height: 76px;
+}
+
+.container .list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container .list-container li {
+  list-style: none;
+}
+
+.container .list-container li .contact {
+  background-color: red;
+}
+
+.container .list-container a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.container span {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
