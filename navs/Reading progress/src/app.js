@@ -10,8 +10,7 @@ const totalHeight = innerHeight - scrollHeight
 
 // functions
 function barMoveMent(){
-  console.log(progressBar.style.width = `${innerHeight}px ,`);
-  console.log(totalHeight )
+    
 }
 
 //Event Listeners
