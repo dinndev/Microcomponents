@@ -29,4 +29,8 @@ body .bar-container .bar {
   height: .5vh;
   position: fixed;
 }
+
+p {
+  height: 150vh;
+}
 /*# sourceMappingURL=main.css.map */
